@@ -1,0 +1,33 @@
+fault_type,start_time,end_time,duration_hours,affected_channels,magnitude,description
+F1,2024-02-24 05:00:00+07:00,2024-02-26 03:00:00+07:00,47,E_grid,,"Sensor dropout: E_grid, 47h gap"
+F1,2024-10-05 05:00:00+07:00,2024-10-10 04:00:00+07:00,120,E_DG,,"Sensor dropout: E_DG, 120h gap"
+F1,2024-11-07 14:00:00+07:00,2024-11-13 04:00:00+07:00,135,E_grid,,"Sensor dropout: E_grid, 135h gap"
+F1,2024-08-10 03:00:00+07:00,2024-08-15 21:00:00+07:00,139,E_grid,,"Sensor dropout: E_grid, 139h gap"
+F1,2024-01-02 15:00:00+07:00,2024-01-03 03:00:00+07:00,13,E_DG,,"Sensor dropout: E_DG, 13h gap"
+F1,2024-10-03 01:00:00+07:00,2024-10-03 06:00:00+07:00,6,E_DG,,"Sensor dropout: E_DG, 6h gap"
+F1,2024-01-07 23:00:00+07:00,2024-01-13 16:00:00+07:00,138,E_DG,,"Sensor dropout: E_DG, 138h gap"
+F1,2024-11-26 10:00:00+07:00,2024-12-01 08:00:00+07:00,119,E_grid,,"Sensor dropout: E_grid, 119h gap"
+F1,2024-04-18 12:00:00+07:00,2024-04-20 13:00:00+07:00,50,E_grid,,"Sensor dropout: E_grid, 50h gap"
+F1,2024-07-23 05:00:00+07:00,2024-07-28 02:00:00+07:00,118,E_DG,,"Sensor dropout: E_DG, 118h gap"
+F1,2024-09-04 22:00:00+07:00,2024-09-07 08:00:00+07:00,59,E_grid,,"Sensor dropout: E_grid, 59h gap"
+F1,2024-05-10 03:00:00+07:00,2024-05-14 11:00:00+07:00,105,E_grid,,"Sensor dropout: E_grid, 105h gap"
+F1,2024-05-19 12:00:00+07:00,2024-05-26 02:00:00+07:00,159,E_DG,,"Sensor dropout: E_DG, 159h gap"
+F1,2024-04-24 17:00:00+07:00,2024-04-30 07:00:00+07:00,135,E_grid,,"Sensor dropout: E_grid, 135h gap"
+F1,2024-10-30 00:00:00+07:00,2024-11-03 10:00:00+07:00,107,E_DG,,"Sensor dropout: E_DG, 107h gap"
+F1,2024-07-12 18:00:00+07:00,2024-07-19 10:00:00+07:00,161,E_grid,,"Sensor dropout: E_grid, 161h gap"
+F1,2024-08-02 04:00:00+07:00,2024-08-06 19:00:00+07:00,112,E_DG,,"Sensor dropout: E_DG, 112h gap"
+F1,2024-03-22 06:00:00+07:00,2024-03-28 19:00:00+07:00,158,E_grid,,"Sensor dropout: E_grid, 158h gap"
+F1,2024-05-31 13:00:00+07:00,2024-06-06 02:00:00+07:00,134,E_DG,,"Sensor dropout: E_DG, 134h gap"
+F1,2024-11-16 08:00:00+07:00,2024-11-18 19:00:00+07:00,60,E_DG,,"Sensor dropout: E_DG, 60h gap"
+F1,2024-12-10 02:00:00+07:00,2024-12-16 02:00:00+07:00,145,E_grid,,"Sensor dropout: E_grid, 145h gap"
+F1,2024-08-16 17:00:00+07:00,2024-08-18 13:00:00+07:00,45,E_grid,,"Sensor dropout: E_grid, 45h gap"
+F2,2024-06-23 10:00:00+07:00,2024-07-09 04:00:00+07:00,379,E_grid,1.0147973653298288,"Sensor drift: E_grid, factor=1.015, onset=107h, duration=272h"
+F2,2024-03-02 07:00:00+07:00,2024-03-13 11:00:00+07:00,269,E_DG,0.9825849481960087,"Sensor drift: E_DG, factor=0.983, onset=107h, duration=162h"
+F2,2024-04-02 23:00:00+07:00,2024-04-15 14:00:00+07:00,304,E_grid,1.0786497385625688,"Sensor drift: E_grid, factor=1.079, onset=85h, duration=219h"
+F2,2024-12-17 10:00:00+07:00,2024-12-26 00:00:00+07:00,207,E_DG,0.9623647857150694,"Sensor drift: E_DG, factor=0.962, onset=83h, duration=124h"
+F3a,2024-09-01 05:00:00+07:00,2024-09-04 10:00:00+07:00,78,E_grid,0.20063587342458034,Energy deflation: E_grid reduced by 20.1% for 78h
+F3b,2024-10-20 00:00:00+07:00,2024-10-22 10:00:00+07:00,59,Q_prod,0.25814187100883434,Production inflation: Q_prod increased by 25.8% for 59h
+F3b,2024-06-09 17:00:00+07:00,2024-06-16 06:00:00+07:00,158,Q_prod,0.23741494799742335,Production inflation: Q_prod increased by 23.7% for 158h
+F3b,2024-05-03 11:00:00+07:00,2024-05-07 05:00:00+07:00,91,Q_prod,0.15283745391537482,Production inflation: Q_prod increased by 15.3% for 91h
+F3c,2024-09-25 05:00:00+07:00,2024-09-27 10:00:00+07:00,54,"E_DG, E_grid",0.26521030331961326,"Solar inflation: E_DG increased by 26.5%, E_grid adjusted downward, for 54h"
+F3b,2024-01-22 20:00:00+07:00,2024-01-27 16:00:00+07:00,117,Q_prod,0.15150051590526634,Production inflation: Q_prod increased by 15.2% for 117h

@@ -1,0 +1,52 @@
+DIGITAL TWIN VALIDATION REPORT
+Generated: 2026-05-14 16:54:45.101228
+Seed: 42
+
+annual_energy_MWh: 1593.4319925473883
+energy_range_pass: True
+annual_solar_MWh: 197.47026217711968
+solar_range_pass: True
+solar_capacity_factor: 0.1502817824787821
+load_factor: 0.36228213315607405
+annual_emissions_tCO2e: 709.5823136761682
+emissions_range_pass: True
+mean_temperature: 28.420559094369608
+E_grid_moments:
+  mean: 162.03750194700314
+  std: 157.1988752891344
+  skewness: 0.45263780380237956
+  kurtosis: -1.4966207050759175
+E_DG_moments:
+  mean: 22.542267371817314
+  std: 28.71240033774703
+  skewness: 0.8958595966245931
+  kurtosis: -0.5591321241971157
+Q_prod_moments:
+  mean: 59.726950608038884
+  std: 69.84251898045176
+  skewness: 0.49448905973456686
+  kurtosis: -1.5018461744937743
+E_total_moments:
+  mean: 181.89862928623154
+  std: 168.30156596459668
+  skewness: 0.3790660736125115
+  kurtosis: -1.6267958051263054
+E_grid_acf:
+  lag_1: 0.8558019278566734
+  lag_6: 0.15594459502932162
+  lag_12: 0.1195217972135103
+  lag_24: 0.5555962865944191
+  lag_48: 0.24656848529963246
+  lag_168: 0.8449830455303868
+E_total_acf:
+  lag_1: 0.874087010565728
+  lag_6: 0.1924758453238045
+  lag_12: -0.03405052993320814
+  lag_24: 0.5791985313154075
+  lag_48: 0.2886691516957489
+  lag_168: 0.8597951640125866
+diurnal_periodicity_pass: True
+weekly_periodicity_pass: True
+all_pass: True
+pass_count: 8
+total_checks: 8
